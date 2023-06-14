@@ -1,2 +1,1 @@
-pytest -vsm 'sanity or regression' --html=./reports/sanityandregressionrunbatfile './testCases/' --browser chrome
-REM pytest -vsm 'sanity or regression' --html=./reports/sanityandregressionrunbatfile './testCases/' --browser edge
+python -m pytest -vsm 'sanity or regression' --html=./reports/sanityandregressionrunbatfile './testCases/' --browser chrome
